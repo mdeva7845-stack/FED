@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Navbar</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #2874f0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        /* Logo */
+        .logo {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            font-size: 12px;
+            color: #ffe500;
+        }
+
+        /* Search Bar */
+        .search-box {
+            flex: 1;
+            margin: 0 20px;
+            display: flex;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            outline: none;
+            border-radius: 2px 0 0 2px;
+        }
+
+        .search-box button {
+            background-color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 0 2px 2px 0;
+        }
+
+        /* Right Side */
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .nav-right button {
+            background-color: white;
+            color: #2874f0;
+            border: none;
+            padding: 6px 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .nav-right a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav-right a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <!-- Logo -->
+        <div class="logo">
+            Flipkart <br>
+            <span>Explore Plus</span>
+        </div>
+
+        <!-- Search -->
+        <div class="search-box">
+            <input type="text" placeholder="Search for products, brands and more">
+            <button>🔍</button>
+        </div>
+
+        <!-- Right Side -->
+        <div class="nav-right">
+            <button>Login</button>
+            <a href="#">Become a Seller</a>
+            <a href="#">More</a>
+            <a href="#">Cart 🛒</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
